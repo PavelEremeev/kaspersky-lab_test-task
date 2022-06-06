@@ -1,0 +1,70 @@
+.promo {
+    padding-bottom: 140px;
+    position: relative;
+    background: rgb(29, 28, 31);
+    background: linear-gradient(306deg, rgba(29, 28, 31, 1) 57%, rgba(6, 77, 80, 1) 85%, rgba(4, 106, 100, 1) 90%, rgba(3, 122, 111, 1) 93%, rgba(0, 168, 142, 1) 98%, rgba(35, 209, 174, 1) 100%);
+}
+
+.promo__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.promo__container {
+    position: absolute;
+    top: 50px;
+    left: 166px;
+}
+
+.promo__title {
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 68px;
+    color: white;
+    max-width: 608px;
+}
+
+.promo__subtitle {
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    color: white;
+    max-width: 540px;
+}
+
+.promo__check {
+    display: flex;
+    max-width: 500px;
+    align-items: baseline;
+}
+
+.promo__check-img {
+    margin-right: 18px;
+}
+
+.promo__check-text {
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+}
+
+.promo__background {}
+
+.promo__text {
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    color: white;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: ;
+}
