@@ -89,7 +89,7 @@ hr {
     color: white;
     text-align: center;
     margin-top: 140px;
-    padding-bottom: 500px;
+    padding-bottom: 600px;
 }
 
 
@@ -134,4 +134,61 @@ hr {
         font-size: 34px;
         line-height: 36px;
     }
+}
+
+
+@media screen and (max-width: 635px) {
+
+    .promo {
+        padding-bottom: 140px;
+    }
+
+    .promo__title {
+        font-size: 36px;
+        line-height: 40px;
+        color: white;
+        max-width: 312px;
+    }
+
+
+    .promo__wrapper {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .promo__container {
+        position: inherit;
+        margin-left: 24px;
+    }
+
+    .promo__background {
+        width: 137%;
+        margin-left: -55px;
+    }
+
+    .promo__title {
+        margin-top: 33px;
+    }
+
+    .promo__subtitle {
+
+        font-size: 24px;
+        line-height: 27px;
+        color: white;
+        max-width: 312px;
+
+    }
+
+    .promo__check-text {
+        font-size: 20px;
+        line-height: 26px;
+        max-width: 278px;
+    }
+
+    .promo__text {
+        display: none;
+    }
+
+
+
 }

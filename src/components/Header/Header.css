@@ -53,3 +53,10 @@
         padding: 13px 78px;
     }
 }
+
+
+@media screen and (max-width: 635px) {
+    .header__wrapper {
+        padding: 13px 24px;
+    }
+}

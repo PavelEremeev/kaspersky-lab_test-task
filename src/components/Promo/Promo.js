@@ -8,6 +8,7 @@ function Promo({ sticky }) {
     return (
         <section className={sticky ? 'promo_sticky promo' : 'promo'}>
             <div className='promo__wrapper'>
+                <img src={promoBackground} alt='background' className='promo__background' />
                 <div className='promo__container'>
                     <h1 className='promo__title'>
                         Don’t let malware defeat you
@@ -31,7 +32,7 @@ function Promo({ sticky }) {
                         <p className='promo__check-text'><b>Cutting-edge cybersecurity: </b>Runs on AI overseen by world-leading threat analysts</p>
                     </div>
                 </div>
-                <img src={promoBackground} alt='background' className='promo__background' />
+
 
             </div>
             <h2 className='promo__text'>Cybersecurity you can depend on </h2>

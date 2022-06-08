@@ -38,7 +38,7 @@ function BuyBlock({ pinned }) {
                         <h3 className='buy-block__price-text__old'>£34.99</h3>
                         <h2 className='buy-block__price-text__new'>£35.99</h2>
                     </div>
-                    <div className='buy-block__container'>
+                    <div className='buy-block__button-container'>
                         <select className='buy-block__selection'>
                             <option className='buy-block__selected-item' value='1d1y'>1 Devices, 1 Year £27.99</option>
                             <option className='buy-block__selected-item' value='1d2y'>1 Devices, 2 Year £43.99</option>
