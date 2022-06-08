@@ -13,7 +13,7 @@ function App() {
   const [pinned, setPinned] = useState(false)
 
   function headerScrollHandler() {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 50) {
       setSticky(true)
     } else {
       setSticky(false)
@@ -22,14 +22,16 @@ function App() {
 
   function buyBlockScrollHandler() {
     console.log(window.scrollY)
-    if (window.scrollY >= 300) {
+    if (window.scrollY >= 600) {
       setPinned(true)
       console.log(pinned)
-    } else {
+    } if (window.scrollY <= 20) {
       setPinned(false)
       console.log(pinned)
     }
   }
+
+
 
   useEffect(() => {
     window.addEventListener('scroll', buyBlockScrollHandler)
