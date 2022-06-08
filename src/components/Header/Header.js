@@ -3,9 +3,11 @@ import './Header.css'
 
 import logo from '../../images/logo.svg'
 
-function Header() {
+function Header({ sticky }) {
+
     return (
-        <header className='header'>
+        <header className={sticky ? 'header_sticky header ' : 'header'}>
+            {/* <header className='header__sticky header '> */}
             <div className='header__wrapper'>
                 <a href='/' className='header__link'>
                     <img src={logo} alt='logo' className='header__logo' />

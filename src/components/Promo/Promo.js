@@ -4,15 +4,15 @@ import './Promo.css'
 import check from '../../images/Check.svg'
 import promoBackground from '../../images/background.svg'
 
-function Promo() {
+function Promo({ sticky }) {
     return (
-        <section className='promo'>
+        <section className={sticky ? 'promo_sticky promo' : 'promo'}>
             <div className='promo__wrapper'>
                 <div className='promo__container'>
                     <h1 className='promo__title'>
                         Don’t let malware defeat you
                     </h1>
-                    <hr/>
+                    <hr />
                     <h2 className='promo__subtitle'>
                         Protect your devices with
                         a security suite made for gamers
