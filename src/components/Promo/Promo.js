@@ -12,6 +12,7 @@ function Promo() {
                     <h1 className='promo__title'>
                         Don’t let malware defeat you
                     </h1>
+                    <hr/>
                     <h2 className='promo__subtitle'>
                         Protect your devices with
                         a security suite made for gamers
