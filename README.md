@@ -11,9 +11,7 @@
 
 ## Инструкции по развёртыванию
 
-Если вы хотите скачать код проекта на свой компьютер, вам понадобится NodeJS и Webpack (для распаковки и запуска кода).
-
-- клонируйте проект:
+- клонируйте проект.
 - откройте проект в редакторе кода и выполните следующие действия:
 
 > - запустите в командной строке `npm i`;
@@ -33,7 +31,9 @@ Requirements
 •	Internet Explorer 11 
 •	Safari (latest version) 
 Coding Standards 
+
 When working on the project follow coding standards: 
+
 Project Delivery 
 It’s preferred to send back a link to your project on GitHub or another service. 
 Make sure you send the project to us no more than 96 hours after receiving the test. 
