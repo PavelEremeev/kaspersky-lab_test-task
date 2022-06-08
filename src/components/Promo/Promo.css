@@ -1,0 +1,194 @@
+/* К сожалению градиент не копируется корректно. пришлось подбирать ручками.  */
+.promo {
+    padding-bottom: 140px;
+    position: relative;
+    background: rgb(29, 28, 31);
+    background: linear-gradient(306deg, rgba(29, 28, 31, 1) 57%, rgba(6, 77, 80, 1) 85%, rgba(4, 106, 100, 1) 90%, rgba(3, 122, 111, 1) 93%, rgba(0, 168, 142, 1) 98%, rgba(35, 209, 174, 1) 100%);
+}
+
+.promo_sticky {
+    margin-top: -64px;
+}
+
+.promo__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.promo__container {
+    position: absolute;
+    top: 50px;
+    left: 166px;
+}
+
+.promo__title {
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 68px;
+    color: white;
+    max-width: 608px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+hr {
+    max-width: 89px;
+    color: white;
+    border-top: 1px solid white;
+    margin-left: 0;
+
+}
+
+.promo__subtitle {
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 36px;
+    color: white;
+    max-width: 445px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.promo__check {
+    display: flex;
+    max-width: 500px;
+    align-items: baseline;
+}
+
+.promo__check-img {
+    margin-right: 18px;
+}
+
+.promo__check-text {
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.promo__background {
+    height: 100%;
+    width: 799px;
+}
+
+.promo__text {
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    color: white;
+    text-align: center;
+    margin-top: 140px;
+    padding-bottom: 600px;
+}
+
+
+
+@media screen and (max-width: 1180px) {
+    .promo__title {
+        font-size: 45px;
+        line-height: 44px;
+        color: white;
+        max-width: 500px;
+    }
+
+    .promo__container {
+        left: 78px;
+    }
+
+    .promo__background {
+        width: 593px;
+    }
+
+    .promo__title {
+        margin-top: 33px;
+    }
+
+    .promo__subtitle {
+
+        font-size: 29px;
+        line-height: 27px;
+        color: white;
+        max-width: 425px;
+
+    }
+
+    .promo__check-text {
+        font-size: 20px;
+        line-height: 26px;
+
+    }
+
+    .promo__text {
+
+        font-size: 34px;
+        line-height: 36px;
+    }
+}
+
+
+@media screen and (max-width: 635px) {
+
+    .promo {
+        padding-bottom: 140px;
+    }
+
+    .promo__title {
+        font-size: 36px;
+        line-height: 40px;
+        color: white;
+        max-width: 312px;
+    }
+
+
+    .promo__wrapper {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .promo__container {
+        position: inherit;
+        margin-left: 24px;
+    }
+
+    .promo__background {
+        width: 137%;
+        margin-left: -55px;
+    }
+
+    .promo__title {
+        margin-top: 33px;
+    }
+
+    .promo__subtitle {
+
+        font-size: 24px;
+        line-height: 27px;
+        color: white;
+        max-width: 312px;
+
+    }
+
+    .promo__check-text {
+        font-size: 20px;
+        line-height: 26px;
+        max-width: 278px;
+    }
+
+    .promo__text {
+        display: none;
+    }
+
+
+
+}

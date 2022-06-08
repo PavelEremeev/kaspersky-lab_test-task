@@ -1,0 +1,62 @@
+.header {
+    background: rgba(29, 29, 27, 0.4);
+    height: 64px;
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+}
+
+.header_sticky {
+    position: sticky;
+    top: 0px;
+}
+
+.header__wrapper {
+    padding: 13px 166px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header__logo {
+    height: 29px;
+    width: 155px;
+    transition: ease 0.3s;
+}
+
+.header__logo:hover {
+    opacity: 0.8;
+    transition: ease 0.3s;
+}
+
+
+.header__selection {
+    font-family: 'Kaspersky';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    width: 70px;
+    height: 38px;
+    outline: none;
+}
+
+.header__selected-item {
+    font-family: 'Kaspersky';
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@media screen and (max-width: 1180px) {
+    .header__wrapper {
+        padding: 13px 78px;
+    }
+}
+
+
+@media screen and (max-width: 635px) {
+    .header__wrapper {
+        padding: 13px 24px;
+    }
+}

@@ -1,0 +1,582 @@
+.buy-block {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 73%;
+}
+
+.buy-block_sticky {
+    position: sticky;
+    bottom: 0px;
+}
+
+
+.buy-block__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.buy-block__container-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 352px;
+    transition: linear .5s;
+}
+
+.buy-block__container-info_sticky {
+    background: black;
+    transition: linear .5s;
+}
+
+.buy-block__info-text {
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    margin: 0 8px 0 0;
+}
+
+.buy-block__icon-system {
+    height: 13px;
+    color: white;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-right: 1px solid #666666;
+    transition: ease-in .3s;
+}
+
+.buy-block__icon-system:last-of-type {
+    border-right: none;
+}
+
+.buy-block__icon-system:hover {
+    opacity: 0.7;
+    transition: ease-in .3s;
+}
+
+.buy-block__sale-text {
+    background: #8233FF;
+    color: white;
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    text-align: center;
+    padding: 8px 94px;
+    margin: 0 0 0 75px;
+}
+
+.buy-block__container-product {
+    display: flex;
+    flex-direction: row;
+    max-width: 1172px;
+    height: 112px;
+    background: linear-gradient(271.57deg, rgba(0, 168, 142, 0.4) 77.05%, rgba(126, 255, 51, 0.4) 100%), #23D1AE;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buy-block__container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.buy-block__price-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-left: 1px solid rgba(255, 255, 255, .2);
+    border-right: 1px solid rgba(255, 255, 255, .2);
+    height: 88px;
+}
+
+.buy-block__price-text__old {
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    color: #006D5C;
+    text-decoration: line-through;
+    margin: 0 12px 0 12px;
+}
+
+.buy-block__price-text__new {
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 52px;
+    letter-spacing: -0.03em;
+    color: black;
+    margin: 0 28px 0 0;
+}
+
+.buy-block__icon {
+    height: 72px;
+    width: 81px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 32px;
+}
+
+.buy-block__container-review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 29px;
+    margin-right: 66px;
+}
+
+.buy-block__product-text {
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.buy-block__review-image {
+    height: 15px;
+    width: 77px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.buy-block__review-text {
+    margin-left: 10px;
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+.buy-block__button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.buy-block__selection {
+    background: #7FE3CE;
+    border: 2px solid black;
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    height: 48px;
+    width: 191px;
+    background: #15C1A1;
+    outline: none;
+    margin-left: 24px;
+}
+
+.buy-block__selected-item {
+    background: #15C1A1;
+    margin: 15px;
+}
+
+.buy-block__button {
+    width: 118px;
+    height: 48px;
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    outline: none;
+    background: #FF3748;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    margin-left: 24px;
+    margin-right: 32px;
+    transition: ease-in .3s;
+}
+
+.buy-block__button:hover {
+    transition: ease-in .3s;
+    transform: scale(1.03);
+    cursor: pointer;
+    color: rgba(255, 255, 255, .8);
+}
+
+
+
+@media screen and (max-width: 1180px) {
+
+    .buy-block {
+        top: 55%;
+    }
+
+    /* .buy-block__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    } */
+
+    .buy-block__container-info {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+    .buy-block__info-text {
+
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+
+    .buy-block__icon-system {
+        height: 11px;
+        color: white;
+        padding-right: 8px;
+        padding-left: 8px;
+        border-right: 1px solid #666666;
+        transition: ease-in .3s;
+    }
+
+    .buy-block__sale-text {
+        font-size: 18px;
+        text-align: center;
+        padding: 6px 60px;
+        margin: 0 0 0 59px;
+    }
+
+    .buy-block__price-text__old {
+        font-size: 22px;
+        line-height: 18px;
+        margin: 0 12px 0 12px;
+    }
+
+    .buy-block__price-text__new {
+        font-size: 37px;
+        line-height: 39px;
+        margin: 0 12px 0 0;
+    }
+
+    .buy-block__icon {
+        height: 52px;
+        width: 61px;
+        margin-left: 12px;
+    }
+
+    .buy-block__container-review {
+        margin-left: 10px;
+        margin-right: 14px;
+    }
+
+    .buy-block__product-text {
+        font-size: 18px;
+        line-height: 16px;
+        max-width: 241px;
+    }
+
+    .buy-block__review-image {
+        height: 15px;
+        width: 77px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+
+    .buy-block__review-text {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 0;
+    }
+
+    .buy-block__selection {
+        font-size: 14px;
+        line-height: 18px;
+        height: 48px;
+        width: 160px;
+        margin-left: 18px;
+    }
+
+    .buy-block__selected-item {
+        background: #15C1A1;
+    }
+
+    .buy-block__button {
+        width: 89px;
+        height: 48px;
+        margin-left: 12px;
+        margin-right: 16px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+
+    .buy-block__info-text {
+
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+
+    .buy-block__price-text__old {
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0 8px 0 8px;
+    }
+
+    .buy-block__price-text__new {
+        font-size: 24px;
+        line-height: 26px;
+        margin: 0 10px 0 0;
+    }
+
+    .buy-block__icon {
+        height: 41px;
+        width: 51px;
+        margin-left: 8px;
+    }
+
+    .buy-block__container-review {
+        margin-left: 8px;
+        margin-right: 12px;
+    }
+
+    .buy-block__product-text {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 241px;
+    }
+
+    .buy-block__review-image {
+        height: 15px;
+        width: 77px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+
+    .buy-block__review-text {
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 0;
+    }
+
+    .buy-block__selection {
+        font-size: 12px;
+        line-height: 16px;
+        height: 48px;
+        width: 160px;
+        margin-left: 12px;
+    }
+
+    .buy-block__selected-item {
+        background: #15C1A1;
+    }
+
+    .buy-block__button {
+        font-size: 14;
+        width: 76px;
+        height: 48px;
+        margin-left: 10px;
+        margin-right: 14px;
+    }
+
+}
+
+
+@media screen and (max-width: 635px) {
+
+    .buy-block {
+        position: inherit;
+    }
+
+    .buy-block__container-info {
+        display: none;
+    }
+
+    .buy-block__container-product {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        background: linear-gradient(271.57deg, rgba(0, 168, 142, 0.4) 77.05%, rgba(126, 255, 51, 0.4) 100%), #23D1AE;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .buy-block__container {
+        align-items: center;
+    }
+
+    .buy-block__price-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid rgba(255, 255, 255, .2);
+        border-top: 1px solid rgba(255, 255, 255, .2);
+        border-left: none;
+        border-right: none;
+        height: 88px;
+        width: 90%;
+    }
+
+    .buy-block__button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+
+    .buy-block__price-text__old {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 20px 0 0;
+    }
+
+    .buy-block__price-text__new {
+        font-size: 54px;
+        line-height: 52px;
+        margin: 0 0 0 0;
+    }
+
+    .buy-block__icon {
+        height: 50px;
+        width: 56px;
+        margin-left: 16px;
+    }
+
+    .buy-block__container-review {
+        margin-left: 8px;
+        margin-right: 12px;
+    }
+
+    .buy-block__product-text {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+
+    .buy-block__review-image {
+        height: 15px;
+        width: 77px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 20px;
+    }
+
+
+    .buy-block__review-text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+
+    .buy-block__selection {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        height: 48px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .buy-block__selected-item {
+        background: #15C1A1;
+    }
+
+    .buy-block__button {
+        font-size: 14;
+        width: 76px;
+        height: 48px;
+        margin: 20px 0 20px 0;
+        width: 100%;
+    }
+
+    .buy-block-mobile {
+        display: none;
+    }
+
+    .buy-block-mobile__sticky {
+        display: inherit;
+        position: sticky;
+        bottom: 0px;
+    }
+
+    .buy-block-mobile__wrapper {
+        margin: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background: linear-gradient(317.5deg, rgba(0, 168, 142, 0.4) 66.18%, rgba(126, 255, 51, 0.4) 100%), #23D1AE;
+    }
+
+    .buy-block-mobile__container-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .buy-block-mobile__selected-item {
+        font-family: 'Kaspersky';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+
+    .buy-block-mobile__button {
+        width: 78px;
+        height: 48px;
+        font-family: 'Kaspersky';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        outline: none;
+        background: #FF3748;
+        border-radius: 3px;
+        color: white;
+        border: none;
+        margin-left: 24px;
+        margin-right: 32px;
+        transition: ease-in .3s;
+    }
+
+    .buy-block-mobile__button:hover {
+        transition: ease-in .3s;
+        transform: scale(1.03);
+        cursor: pointer;
+        color: rgba(255, 255, 255, .8);
+    }
+}
+
+
+@media screen and (min-width: 635px) {
+    .buy-block-mobile {
+        display: none;
+    }
+
+
+}

@@ -1,10 +1,6 @@
 @import url(./vendor/normalize.css);
 @import url(./fonts/fonts.css);
 
-.div {
-    color:red;
-    font-family: 'Kaspersky';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
+body {
+    background-color: black;
 }
