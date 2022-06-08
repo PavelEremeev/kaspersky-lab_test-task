@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Тестовое задание для Kaspersky Lab на позицию Web Publisher
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Stack
 
-## Available Scripts
+- **React** 
+- **HTML5**
+- **CSS3**
+- **Flex box**
+- **Семантические теги**
+- **Адаптивная верстка**
 
-In the project directory, you can run:
+## Инструкции по развёртыванию
 
-### `npm start`
+Если вы хотите скачать код проекта на свой компьютер, вам понадобится NodeJS и Webpack (для распаковки и запуска кода).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- клонируйте проект:
+- откройте проект в редакторе кода и выполните следующие действия:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> - запустите в командной строке `npm i`;
+> - затем введите `npm start`;
+> - далее проект откроется на `http://localhost:3000/`;
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Тестовое задание:
+Project brief 
+Please convert a first top section form mockup into HTML/CSS/JS.  
+https://www.figma.com/file/Nbloz1JiBNlRCVT3cvupmN/Test-Project-for-HR?node-id=0%3A1  
+Requirements 
+1.	Use HTML5 / CSS 3 / JS 
+2.	Page need to be responsive 
+3.	Page should support following browsers: 
+•	Firefox (latest version) 
+•	Google Chrome (latest version) 
+•	Internet Explorer 11 
+•	Safari (latest version) 
+Coding Standards 
+When working on the project follow coding standards: 
+Project Delivery 
+It’s preferred to send back a link to your project on GitHub or another service. 
+Make sure you send the project to us no more than 96 hours after receiving the test. 
