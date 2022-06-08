@@ -1,10 +1,13 @@
-
- /* К сожалению градиент не копируется корректно. пришлось подбирать ручками.  */
+/* К сожалению градиент не копируется корректно. пришлось подбирать ручками.  */
 .promo {
     padding-bottom: 140px;
     position: relative;
     background: rgb(29, 28, 31);
     background: linear-gradient(306deg, rgba(29, 28, 31, 1) 57%, rgba(6, 77, 80, 1) 85%, rgba(4, 106, 100, 1) 90%, rgba(3, 122, 111, 1) 93%, rgba(0, 168, 142, 1) 98%, rgba(35, 209, 174, 1) 100%);
+}
+
+.promo_sticky {
+    margin-top: -64px;
 }
 
 .promo__wrapper {
@@ -36,7 +39,7 @@ hr {
     color: white;
     border-top: 1px solid white;
     margin-left: 0;
-    
+
 }
 
 .promo__subtitle {
@@ -86,5 +89,49 @@ hr {
     color: white;
     text-align: center;
     margin-top: 140px;
-    margin-bottom: ;
+    padding-bottom: 500px;
+}
+
+
+
+@media screen and (max-width: 1180px) {
+    .promo__title {
+        font-size: 45px;
+        line-height: 44px;
+        color: white;
+        max-width: 500px;
+    }
+
+    .promo__container {
+        left: 78px;
+    }
+
+    .promo__background {
+        width: 593px;
+    }
+
+    .promo__title {
+        margin-top: 33px;
+    }
+
+    .promo__subtitle {
+
+        font-size: 29px;
+        line-height: 27px;
+        color: white;
+        max-width: 425px;
+
+    }
+
+    .promo__check-text {
+        font-size: 20px;
+        line-height: 26px;
+
+    }
+
+    .promo__text {
+
+        font-size: 34px;
+        line-height: 36px;
+    }
 }

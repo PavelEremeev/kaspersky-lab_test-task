@@ -6,6 +6,11 @@
     z-index: 4;
 }
 
+.header_sticky {
+    position: sticky;
+    top: 0px;
+}
+
 .header__wrapper {
     padding: 13px 166px;
     display: flex;
@@ -41,4 +46,10 @@
     font-weight: 300;
     font-style: normal;
 
+}
+
+@media screen and (max-width: 1180px) {
+    .header__wrapper {
+        padding: 13px 78px;
+    }
 }
