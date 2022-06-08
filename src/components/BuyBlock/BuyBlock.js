@@ -28,11 +28,13 @@ function BuyBlock() {
                             
                             <div className='buy-block__container-review'>
                             <p className='buy-block__product-text'>Kaspersky Internet Security</p>
-                                <img src={stars} alt='stars' className='buy-block__stars' />
-                                <p className='buy-block__review-text'>(1503 reviews)</p>
+                                <div className='buy-block__container'>
+                                <img src={stars} alt='stars' className='buy-block__review-image' />
+                                <span className='buy-block__review-text'>(1503 reviews)</span>
+                                </div>
                             </div>
                         </div>
-                        <div className='buy-block__container'>
+                        <div className='buy-block__price-container'>
                             <h3 className='buy-block__price-text__old'>34.99</h3>
                             <h2 className='buy-block__price-text__new'>35.99</h2>
                         </div>

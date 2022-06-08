@@ -72,7 +72,10 @@ hr {
     margin-bottom: 20px;
 }
 
-.promo__background {}
+.promo__background {
+    height: 100%;
+    width: 799px;
+}
 
 .promo__text {
     font-family: 'Kaspersky';
