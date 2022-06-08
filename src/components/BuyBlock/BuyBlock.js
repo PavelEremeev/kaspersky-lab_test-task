@@ -1,30 +1,33 @@
 import React from 'react';
 
+import './BuyBlock.css'
+
 import windows from '../../images/icon_wind.svg'
 import macOS from '../../images/icon_macOS.svg'
 import android from '../../images/icon_android.svg'
 import ios from '../../images/icon_iOS.svg'
-import icon from '../../images/Asset.png'
-import stars from '../../images/star.png'
+import icon from '../../images/Asset.svg'
+import stars from '../../images/Stars.png'
 
 function BuyBlock() {
     return (
         <section className='buy-block'>
             <div className='buy-block__wrapper'>
-                <div>
                     <div className='buy-block__container-info'>
                         <p className='buy-block__info-text'>Compatible with:</p>
                         <img src={windows} alt='windows' className='buy-block__icon-system' />
                         <img src={macOS} alt='macos' className='buy-block__icon-system' />
                         <img src={android} alt='android' className='buy-block__icon-system' />
                         <img src={ios} alt='ios' className='buy-block__icon-system' />
+                        <p className='buy-block__sale-text'>Save 20%</p>
                     </div>
-                    <p className='buy-block__sale-text'>Save 20%</p>
+                    
                     <div className='buy-block__container-product'>
                         <div className='buy-block__container'>
                             <img src={icon} alt='icon' className='buy-block__icon' />
-                            <p className='buy-block__product-text'>Kaspersky Internet Security</p>
+                            
                             <div className='buy-block__container-review'>
+                            <p className='buy-block__product-text'>Kaspersky Internet Security</p>
                                 <img src={stars} alt='stars' className='buy-block__stars' />
                                 <p className='buy-block__review-text'>(1503 reviews)</p>
                             </div>
@@ -44,7 +47,6 @@ function BuyBlock() {
                             </select>
                             <button className='buy-block__button'>Buy Now</button>
                         </div>
-                    </div>
                 </div>
             </div>
         </section>

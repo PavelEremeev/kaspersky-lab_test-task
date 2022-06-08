@@ -1,0 +1,84 @@
+.buy-block {
+
+}
+
+.buy-block__wrapper {
+display: flex;
+flex-direction: column;
+
+}
+
+.buy-block__container-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buy-block__info-text {
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    margin-right: 8px;
+}
+
+.buy-block__icon-system {
+    height: 16px;
+    color: white;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-right: 1px solid #666666;
+}
+
+.buy-block__icon-system:last-of-type {
+    border-right: none;
+}
+
+.buy-block__sale-text {
+    background: #8233FF;
+    color: white;
+    font-family: 'Kaspersky';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    text-align: center;
+    padding: 8px 94px;
+}
+
+.buy-block__container-product {
+    display: flex;
+    flex-direction: row;
+}
+
+.buy-block__container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.buy-block__container-review {
+    display: flex;
+    flex-direction: column;
+}
+
+.buy-block__product-text {
+
+}
+
+.buy-block__review-text {
+
+}
+
+.buy-block__selection {
+
+}
+
+.buy-block__selected-item {
+    
+}
+
+.buy-block__button {
+
+}
